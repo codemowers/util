@@ -1,5 +1,7 @@
 FROM alpine:latest
 RUN apk add --no-cache \
+    htop \
+    pciutils usbutils \
     bash \
     curl \
     git \
