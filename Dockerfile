@@ -24,6 +24,7 @@ RUN apk add --no-cache \
     drill \
     tzdata \
     rclone \
+    iperf \
     iperf3 \
     ca-certificates openssl \
     nano \
