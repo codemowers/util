@@ -33,6 +33,7 @@ RUN apk add --no-cache \
     lvm2 mdadm \
     gptfdisk \
     nvme-cli smartmontools \
+    util-linux-misc \
     kubectl
 WORKDIR /
 CMD ["/bin/bash"]
