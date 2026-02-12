@@ -28,6 +28,7 @@ RUN apk add --no-cache \
     iperf3 \
     ca-certificates openssl \
     nano \
+    xorriso \
     zip unzip xz bzip2 zstd tar \
     e2fsprogs xfsprogs \
     lvm2 mdadm \
