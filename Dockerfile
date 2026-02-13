@@ -1,42 +1,58 @@
-FROM alpine:latest
+FROM alpine:3.23.3
 RUN apk add --no-cache \
-    htop \
-    pciutils usbutils \
+    7zip \
     bash \
-    curl \
-    git \
-    jq yq \
-    patch diffutils \
-    bridge-utils iproute2 \
-    picocom \
-    mtr traceroute \
-    ethtool \
-    tcpdump tshark \
-    iputils \
     bind-tools \
-    net-tools \
-    nmap \
-    socat \
-    iptables \
-    netcat-openbsd \
-    procps \
-    strace \
-    lsof \
+    bridge-utils \
+    bzip2 \
+    ca-certificates \
+    curl \
+    diffutils \
     drill \
-    tzdata \
-    rclone \
+    e2fsprogs \
+    ethtool \
+    git \
+    gpg \
+    gptfdisk \
+    grep \
+    htop \
     iperf \
     iperf3 \
-    ca-certificates openssl \
+    iproute2 \
+    iptables \
+    iputils \
+    jq yq \
+    kubectl \
+    lsof \
+    lvm2 \
+    mdadm \
+    mtr \
     nano \
-    xorriso \
-    zip unzip xz bzip2 zstd tar \
-    e2fsprogs xfsprogs \
-    lvm2 mdadm \
-    gptfdisk \
-    nvme-cli smartmontools \
+    netcat-openbsd \
+    net-tools \
+    nmap \
+    nvme-cli \
+    openssl \
+    patch \
+    pciutils \
+    picocom \
+    procps \
+    rclone \
+    smartmontools \
+    socat \
+    strace \
+    zip \
+    zstd \
+    tar \
+    tcpdump \
+    traceroute \
+    tshark \
+    tzdata \
+    unzip \
+    usbutils \
     util-linux-misc \
-    kubectl
+    xfsprogs \
+    xorriso \
+    xz
 WORKDIR /
 CMD ["/bin/bash"]
-
