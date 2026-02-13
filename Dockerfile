@@ -6,6 +6,7 @@ RUN apk add --no-cache \
     curl \
     git \
     jq yq \
+    patch diffutils \
     bridge-utils iproute2 \
     picocom \
     mtr traceroute \
