@@ -38,6 +38,7 @@ RUN apk add --no-cache \
     picocom \
     procps \
     rclone \
+    rsync \
     smartmontools \
     socat \
     strace \
