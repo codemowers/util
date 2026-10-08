@@ -11,6 +11,7 @@ RUN apk add --no-cache \
     drill \
     e2fsprogs \
     ethtool \
+    fio \
     git \
     gpg \
     gptfdisk \
